@@ -1,13 +1,13 @@
-steps:
-- name: 'ubuntu'
-  args: ['echo', 'hello world']
-
 # steps:
-# - name: 'gcr.io/cloud-builders/docker'
-#   entrypoint: bash
-#   args:
-#   - -c
-#   - |
-#     echo "hello ${_PUSHER}"
-# - name: 'gcr.io/cloud-builders/docker'
-#   args: [ 'whoops' ]
+# - name: 'ubuntu'
+#   args: ['echo', 'hello world']
+
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  entrypoint: bash
+  args:
+  - -c
+  - |
+    echo "hello ${_PUSHER}"
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'whoops' ]
