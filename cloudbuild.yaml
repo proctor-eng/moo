@@ -10,3 +10,4 @@ steps:
   args: [ 'tag', 'hello-world', 'us-central1-docker.pkg.dev/monica-test-341421/monica-artifact-registry/artifact-name']
 images: ['us-central1-docker.pkg.dev/monica-test-341421/monica-artifact-registry/artifact-name']
 options:
+  requestedVerifyOption: VERIFIED
