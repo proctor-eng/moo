@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'tag', 'hello-world', 'us-central1-docker.pkg.dev/monica-test-341421/monica-ar/artifact1']
-images: ['us-central1-docker.pkg.dev/monica-test-341421/monica-ar/artifact1']
+  args: [ 'tag', 'hello-world', 'us-central1-docker.pkg.dev/monica-test-341421/monica-ar/artifact2']
+images: ['us-central1-docker.pkg.dev/monica-test-341421/monica-ar/artifact2']
 options:
   requestedVerifyOption: VERIFIED
